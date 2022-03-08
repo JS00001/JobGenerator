@@ -1,0 +1,28 @@
+{
+  "name": "job-scraper-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node index.js",
+    "start": "nodemon --exec npm run build"
+  },
+  "keywords": [],
+  "author": "Jack Senyitko",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "consola": "^2.15.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "url-exists-deep": "^2.1.3",
+    "xhr2": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
